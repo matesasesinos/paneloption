@@ -1,4 +1,4 @@
-##Detalles
+Detalles
 
 activar el theme "twentytwenty" para poder activar el child theme
 
