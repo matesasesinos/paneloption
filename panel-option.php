@@ -146,5 +146,5 @@ function genosha_get_theme_option( $id = '' ) {
 /** llamar a una opción desde el theme 
  * $value = genosha_get_theme_option( 'select_example' );
  * echo $value;
- * 
+ * mas info: https://wordpress.org/support/article/administration-screens/
  */
