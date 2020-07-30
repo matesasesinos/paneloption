@@ -10,3 +10,11 @@ function my_theme_enqueue_styles() {
 
 //panel option
 require_once( get_stylesheet_directory(). '/panel-option.php' );
+
+function show_option() {
+    if(!is_admin()) {
+        echo '<h1>'.genosha_get_theme_option('input_example').'</h1>';
+    }
+}
+
+add_action('init', 'show_option');
